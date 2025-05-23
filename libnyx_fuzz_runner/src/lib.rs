@@ -4,7 +4,7 @@ extern crate nix;
 extern crate serde_derive;
 extern crate snafu;
 extern crate timeout_readwrite;
-extern crate config;
+extern crate libnyx_config;
 
 
 pub mod exitreason;

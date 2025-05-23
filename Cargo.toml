@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+members = [
+  "libnyx",
+  "libnyx_config",
+  "libnyx_fuzz_runner",
+  "acat",
+]
+default_members = [
+  "libnyx",
+  "libnyx_config",
+  "libnyx_fuzz_runner",
+  "acat",
+]
+
+[workspace.package]
+version = "0.1.0"
+license = "GPLv2"

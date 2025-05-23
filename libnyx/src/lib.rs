@@ -17,10 +17,10 @@
  */
 extern crate libc;
 
-use config::{Config, FuzzRunnerConfig, QemuNyxRole};
+use libnyx_config::{Config, FuzzRunnerConfig, QemuNyxRole};
 
-use fuzz_runner::nyx::qemu_process::QemuProcess;
-use fuzz_runner::nyx::aux_buffer::{NYX_SUCCESS, NYX_CRASH, NYX_TIMEOUT, NYX_INPUT_WRITE, NYX_ABORT};
+use libnyx_fuzz_runner::nyx::qemu_process::QemuProcess;
+use libnyx_fuzz_runner::nyx::aux_buffer::{NYX_SUCCESS, NYX_CRASH, NYX_TIMEOUT, NYX_INPUT_WRITE, NYX_ABORT};
 use libc::fcntl;
 
 use std::fmt;
@@ -258,7 +258,7 @@ impl NyxProcess {
         let sharedir = config.sharedir_path();
         config.set_worker_id(worker_id);
 
-        match fuzz_runner::nyx::qemu_process_new(sharedir.to_string(), &config.config){
+        match libnyx_fuzz_runner::nyx::qemu_process_new(sharedir.to_string(), &config.config){
             Ok(x) => Ok(NyxProcess{
                 process: x,
             }),
@@ -389,5 +389,5 @@ impl NyxProcess {
 }
 
 pub fn remove_work_dir(workdir: &str) -> Result<(), String> {
-    fuzz_runner::nyx::qemu_process::remove_workdir_safe(workdir)
+    libnyx_fuzz_runner::nyx::qemu_process::remove_workdir_safe(workdir)
 }

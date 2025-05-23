@@ -1,4 +1,4 @@
-use fuzz_runner::nyx::aux_buffer::{self, AUX_BUFFER_SIZE};
+use libnyx_fuzz_runner::nyx::aux_buffer::{self, AUX_BUFFER_SIZE};
 
 use clap::{App, Arg, AppSettings};
 

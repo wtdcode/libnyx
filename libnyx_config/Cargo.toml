@@ -1,5 +1,5 @@
 [package]
-name = "config"
+name = "libnyx_config"
 version = "0.1.0"
 authors = ["coco <cornelius@hexgolems.com>"]
 edition = "2021"

@@ -1,5 +1,5 @@
 [package]
-name = "fuzz_runner"
+name = "libnyx_fuzz_runner"
 version = "0.1.0"
 authors = ["coco <cornelius@hexgolems.com>"]
 edition = "2021"
@@ -19,7 +19,7 @@ byteorder = "*"
 snafu = "0.6.3"
 timeout-readwrite = "0.3.1"
 glob="0.3.0"
-config={path="../config"}
+libnyx_config={path="../libnyx_config"}
 colored = "2.0.0"
 derivative = "2.1.1"
 fs4 = "0.5.4"

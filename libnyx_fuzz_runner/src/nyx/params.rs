@@ -1,5 +1,5 @@
 use std::time::Duration;
-use crate::{config::{Config, FuzzRunnerConfig, QemuNyxRole}, QemuProcess};
+use crate::{libnyx_config::{Config, FuzzRunnerConfig, QemuNyxRole}, QemuProcess};
 
 pub struct QemuParams {
     pub cmd: Vec<String>,
