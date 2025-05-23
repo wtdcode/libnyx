@@ -16,6 +16,6 @@ crate-type = ["lib", "staticlib", "dylib"]
 cbindgen = "0.28.0"
 
 [dependencies]
-libnyx_config={version = "0.1.0", path="../libnyx_config"}
-libnyx_fuzz_runner={version = "0.1.0", path="../libnyx_fuzz_runner"}
+libnyx_config.workspace = true
+libnyx_fuzz_runner.workspace = true
 libc = "0.2"
