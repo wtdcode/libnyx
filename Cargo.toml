@@ -14,7 +14,7 @@ default_members = [
 ]
 
 [workspace.package]
-version = "0.1.1"
+version = "0.1.2"
 license = "GPL-2.0-only"
 edition = "2021"
 description = "libnyx fork only for publishing"
@@ -23,6 +23,6 @@ repository = "https://github.com/nyx-fuzz/libnyx"
 readme = "README.md"
 
 [workspace.dependencies]
-libnyx_fuzz_runner = {version = "0.1.1", path = "libnyx_fuzz_runner"}
-libnyx = {version = "0.1.1", path = "libnyx"}
-libnyx_config = {version = "0.1.1", path = "libnyx_config"}
+libnyx_fuzz_runner = {version = "0.1.2", path = "libnyx_fuzz_runner"}
+libnyx = {version = "0.1.2", path = "libnyx"}
+libnyx_config = {version = "0.1.2", path = "libnyx_config"}
