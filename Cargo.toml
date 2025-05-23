@@ -19,7 +19,7 @@ license = "GPL-2.0-only"
 edition = "2021"
 description = "libnyx fork only for publishing"
 homepage = "https://github.com/wtdcode/libnyx"
-repository = "https://github.com/wtdcode/libnyx"
+repository = "https://github.com/nyx-fuzz/libnyx"
 readme = "README.md"
 
 [workspace.dependencies]
