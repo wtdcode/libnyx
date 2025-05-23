@@ -1,5 +1,5 @@
 [package]
-name = "acat"
+name = "libnyx_acat"
 authors = ["Sergej Schumilo <sergej@schumilo.de>"]
 version.workspace = true
 edition.workspace = true

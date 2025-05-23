@@ -48,7 +48,7 @@ fn print_aux_buffer(aux_buffer: &aux_buffer::AuxBuffer, target_file: &String, sh
 
 fn main() {
 
-    let matches = App::new("acat")
+    let matches = App::new("libnyx_acat")
         .about("Fancy tool to debug aux buffers!")
         .arg(
             Arg::with_name("target_file")

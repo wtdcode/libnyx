@@ -4,13 +4,13 @@ members = [
   "libnyx",
   "libnyx_config",
   "libnyx_fuzz_runner",
-  "acat",
+  "libnyx_acat",
 ]
 default_members = [
   "libnyx",
   "libnyx_config",
   "libnyx_fuzz_runner",
-  "acat",
+  "libnyx_acat",
 ]
 
 [workspace.package]
