@@ -15,4 +15,9 @@ default_members = [
 
 [workspace.package]
 version = "0.1.0"
-license = "GPLv2"
+license = "GPL-2.0-only"
+edition = "2021"
+description = "libnyx fork only for publishing"
+homepage = "https://github.com/wtdcode/libnyx"
+repository = "https://github.com/wtdcode/libnyx"
+readme = "README.md"
